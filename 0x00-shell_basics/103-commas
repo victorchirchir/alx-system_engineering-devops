@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1 -a -v --group-directories-first | sed ':a;N;$!ba;s/\n/, /g;s/\([^\/]\)$/\1\//g' | tr -d '\n'
+ls -xamp
