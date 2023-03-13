@@ -1,2 +1,2 @@
 #!/bin/bash
-gret '^[a-aZ=Z] /etc/ssh/sshd_config
+gret '^[a-aZ-Z]' /etc/ssh/sshd_config
